@@ -10,6 +10,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -19,8 +21,8 @@
             <ul>
                 <li>Gmail</li>
                 <li>Images</li>
-                <li>Icon</li>
-                <li>Profile icon</li>
+                <li><i class="material-icons icon">apps</i></li>
+                <li> <img src="images/avatar.png" alt="Avatar" class="avatar"> </li>
             </ul>
         </nav>
 
@@ -29,9 +31,10 @@
                 <img src="/images/google_logo.png">
             </div>
             
-            <div class="search_form">
-                <input type="search" id="google_search">
-            </div>
+            <div class="input-icon-wrap">
+                <span class="input-icon"><i class="fa fa-search" aria-hidden="true"></i></span>
+                <input type="text" class="input-with-icon" id="form-name">
+              </div>  	
 
             <div class="search_buttons">
                 <button>Google Search</button>
@@ -69,6 +72,8 @@
 
 
         
-        <script src="" async defer></script>
+        
+    <script src="https://use.fontawesome.com/30a34909cc.js"></script>
+
     </body>
 </html>
